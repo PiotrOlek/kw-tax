@@ -10,28 +10,28 @@ import {fadeIn} from "../variants";
 // services
 const services = [
   {
-    name: "UI/UX Design",
+    name: "Usługi księgowe",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veniam enim ad repudiandae odio recusandae accusantium totam dolorem harum eum.",
-    link: "Learn more",
+      "Pełna księgowość, w tym ewidencja ksiąg rachunkowych, raporty finansowe, deklaracje podatkowe i sprawozdania roczne.",
+    link: "Dowiedz sie więcej",
   },
   {
-    name: "Development",
+    name: "Usługi kadrowo - płacowe",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veniam enim ad repudiandae odio recusandae accusantium totam dolorem harum eum.",
-    link: "Learn more",
+      "Kompleksowa obsługa kadrowo-płacowa, włączając prowadzenie dokumentacji pracowniczej, listy płac, rozliczenia ZUS i doradztwo z zakresu zarządzania zasobami ludzkimi.",
+    link: "Dowiedz sie więcej",
   },
   {
-    name: "Digital Marketin",
+    name: "Zakładanie firmy",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veniam enim ad repudiandae odio.",
-    link: "Learn more",
+      "Profesjonalne wsparcie w zakładaniu firmy, w tym doradztwo przy wyborze formy prawnej, rejestracja w CEIDG lub e-KRS.",
+    link: "Dowiedz sie więcej",
   },
   {
-    name: "Product Design",
+    name: "Rejestracja podatkowa do VAT polskich firm w Niemczech",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veniam enim ad repudiandae odio recusandae accusantium.",
-    link: "Learn more",
+      "Pomoc w rejestracji polskich firm do celów VAT w Niemczech.",
+    link: "Dowiedz sie więcej",
   },
 ];
 
@@ -47,12 +47,11 @@ const Services = () => {
           whileInView={'show'}
           viewport={{once: false, amount: 0.3}}
           className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0">
-            <h2 className="h2 text-accent mb-6 ">What I Do.</h2>
-            <h3 className="h3 mb-12 max-w-[455px]">
-              I'm a Freelance Front-end Developer with over 5 years of
-              exprience.
-            </h3>
-            <button className="btn btn-sm">See my work</button>
+            <h2 className="h2 bg-gradient-to-r text-transparent bg-clip-text from-[#fdd4bb] to-[#c9a690] font-bold font-primary">OFERTA</h2>
+            <h4 className="h4 mb-12 max-w-[455px]">
+            Specjalizujemy się w kompleksowej obsłudze księgowej, kadrowo-płacowej oraz pomocy w zakładaniu i rejestracji firm, dedykowanej mikro, małym i średnim przedsiębiorstwom w powiecie Wałbrzych.
+            </h4>
+            <button className="btn btn-sm">Sprawdź nasz cennik</button>
           </motion.div>
           {/* services */}
           <motion.div

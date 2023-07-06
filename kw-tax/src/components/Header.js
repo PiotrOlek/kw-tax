@@ -13,7 +13,7 @@ const Header = () => {
         </a>
 
         {/* button */}
-        <button className='btn btn-sm'>Zobacz oferte</button>
+        <button className='btn btn-sm'>Sprawdź naszą oferte</button>
       </div>
     </div>
   </header>;
