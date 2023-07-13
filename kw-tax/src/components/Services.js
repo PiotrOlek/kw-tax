@@ -36,6 +36,12 @@ const services = [
 ];
 
 const Services = () => {
+  const handleCennikClick = () => {
+    const cennikSection = document.getElementById("work");
+    if (cennikSection) {
+      cennikSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="section" id="services">
       <div className="container mx-auto">
@@ -51,7 +57,9 @@ const Services = () => {
             <h4 className="h4 mb-12 max-w-[455px]">
             Specjalizujemy się w kompleksowej obsłudze księgowej, kadrowo-płacowej oraz pomocy w zakładaniu i rejestracji firm, dedykowanej mikro, małym i średnim przedsiębiorstwom w powiecie Wałbrzych.
             </h4>
-            <button className="btn btn-sm">Sprawdź nasz cennik</button>
+            <button className="btn btn-lg" onClick={handleCennikClick}>
+              Sprawdź nasz cennik
+              </button>
           </motion.div>
           {/* services */}
           <motion.div

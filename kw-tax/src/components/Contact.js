@@ -18,11 +18,9 @@ const Contact = () => {
             className="flex-1 flex justify-start items-center"
           >
             <div>
-              <h4 className="text-xl uppercase text-accent font-medium mb-2 tracking-wide">
-                Get in touch
-              </h4>
+
               <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
-                Let's work <br /> together!
+              Skontaktuj się <br /> z nami!
               </h2>
             </div>
           </motion.div>
@@ -37,12 +35,12 @@ const Contact = () => {
             <input
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
               type="text"
-              placeholder="Your name"
+              placeholder="Imię i Nazwisko"
             />
             <input
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
               type="email"
-              placeholder="Your email"
+              placeholder="Adres E-mail"
             />
             <textarea
               className="lg:mb-10 mb-8 bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none"
@@ -51,9 +49,9 @@ const Contact = () => {
               id=""
               cols={30}
               rows={6}
-              placeholder="Your Message"
+              placeholder="Treść Wiadomości"
             ></textarea>
-            <button className="btn btn-lg">Send Message</button>
+            <button className="btn btn-lg">Wyślij Wiadomość</button>
           </motion.form>
         </div>
       </div>

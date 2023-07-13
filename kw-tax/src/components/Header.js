@@ -4,19 +4,25 @@ import React from 'react';
 import Logo from '../assets/Logo_KWTax.png';
 
 const Header = () => {
-  return <header className='py-8'>
-    <div className='container mx-auto'>
-      <div className='flex justify-between items-center'>
-        {/* logo */}
-        <a href='#'>
-          <img src={Logo} alt='' style={{width: '200px', height: '130px'}}/>
-        </a>
+  const handleOfertaClick = () => {
+    const servicesSection = document.getElementById("services");
+    if (servicesSection) {
+      servicesSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
-        {/* button */}
-        <button className='btn btn-sm'>Sprawdź naszą oferte</button>
+  return (
+    <header className='py-8'>
+      <div className='container mx-auto'>
+        <div className='flex justify-between items-center'>
+          <a href='#'>
+            <img src={Logo} alt='' style={{width: '200px', height: '130px'}}/>
+          </a>
+          <button className='btn btn-sm' onClick={handleOfertaClick}>Sprawdź naszą ofertę</button>
+        </div>
       </div>
-    </div>
-  </header>;
+    </header>
+  );
 };
 
 export default Header;

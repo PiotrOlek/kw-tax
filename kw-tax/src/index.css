@@ -67,3 +67,9 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 }
+
+.gradient-text {
+  background: -webkit-linear-gradient(45deg, #fdd4bb, #c9a690);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
