@@ -16,7 +16,8 @@ const Header = () => {
             <p onClick={handlePhoneClick} style={{ cursor: 'pointer' }}>798707107</p>
           </div>
           <div>
-            <p className='text-gradient'>© 2023 KW-TAX. Wszelkie prawa zastrzeżone.</p>
+            <p className='text-gradient'>© 2023 KW-TAX.</p>
+            <p className='text-gradient'>Wszelkie prawa zastrzeżone.</p>
             <a href="/polityka-prywatnosci">Polityka prywatności</a>
           </div>
         </div>
