@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -15,8 +16,8 @@ const App = () => {
       <Nav />
       <Services />
       <Work />
-      
       <Contact />
+      <Footer />
       {/* <div className='h-[4000px]'></div> */}
     </div>
   );
