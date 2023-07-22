@@ -13,25 +13,25 @@ const services = [
     name: "Usługi księgowe",
     description:
       "Pełna księgowość, w tym ewidencja ksiąg rachunkowych, raporty finansowe, deklaracje podatkowe i sprawozdania roczne.",
-    link: "https://www.example1.com",
+    link: "https://uslugi-ksiegowe.kw-tax.pl/",
   },
   {
     name: "Usługi kadrowo - płacowe",
     description:
       "Kompleksowa obsługa kadrowo-płacowa, włączając prowadzenie dokumentacji pracowniczej, listy płac, rozliczenia ZUS i doradztwo z zakresu zarządzania zasobami ludzkimi.",
-    link: "https://www.example2.com",
+    link: "https://uslugi-kadrowo-placowe.kw-tax.pl/",
   },
   {
     name: "Zakładanie firmy",
     description:
       "Profesjonalne wsparcie w zakładaniu firmy, w tym doradztwo przy wyborze formy prawnej, rejestracja w CEIDG lub e-KRS.",
-    link: "https://www.example3.com",
+    link: "https://zakladanie-firmy.kw-tax.pl/",
   },
   {
     name: "Rejestracja podatkowa do VAT polskich firm w Niemczech",
     description:
       "Pomoc w rejestracji polskich firm do celów VAT w Niemczech.",
-    link: "https://www.example4.com",
+    link: "https://zakladanie-firmy.kw-tax.pl/",
   },
 ];
 
