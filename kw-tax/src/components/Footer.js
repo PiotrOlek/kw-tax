@@ -18,7 +18,7 @@ const Header = () => {
           <div>
             <p className='text-gradient'>© 2023 KW-TAX.</p>
             <p className='text-gradient'>Wszelkie prawa zastrzeżone.</p>
-            <a href="/polityka-prywatnosci">Polityka prywatności</a>
+            <a href="https://polityka-prywatnosci.kw-tax.pl/">Polityka prywatności</a>
           </div>
         </div>
       </div>
